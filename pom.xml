@@ -46,8 +46,8 @@
     <jacoco.haltOnFailure>false</jacoco.haltOnFailure>
     <jjwt.suite.version>0.11.2</jjwt.suite.version>
 
-    <jacoco.surefire.argLine />
-    <surefire.argLine />
+    <jacoco.surefire.argLine/>
+    <surefire.argLine/>
   </properties>
 
   <build>
@@ -339,10 +339,10 @@
             <importOrder>
               <file>${basedir}/src/build/eclipse/eclipse.importorder</file>
             </importOrder>
-            <removeUnusedImports />
+            <removeUnusedImports/>
 
-            <trimTrailingWhitespace />
-            <endWithNewline />
+            <trimTrailingWhitespace/>
+            <endWithNewline/>
 
           </java>
         </configuration>
@@ -432,7 +432,7 @@
     <dependency>
       <groupId>com.infradna.tool</groupId>
       <artifactId>bridge-method-annotation</artifactId>
-      <version>1.21</version>
+      <version>1.23</version>
       <optional>true</optional>
     </dependency>
     <!-- for stapler-jetty -->
